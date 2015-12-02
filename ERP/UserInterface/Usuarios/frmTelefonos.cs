@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ERP
 {
-    public partial class Form1 : Form
+    public partial class frmTelefonos : Form
     {
-        public Form1()
+        public frmTelefonos()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
